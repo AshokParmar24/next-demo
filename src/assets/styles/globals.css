@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+  
+  /* Ensure the layout covers the full viewport */
+  html, body, #__next, #next-main {
+    height: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
